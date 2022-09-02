@@ -15,28 +15,15 @@
 ol, ul {
 	list-style: none;
 }
-blockquote {
-	quotes: none;
-}
-blockquote:before, blockquote:after {
-	content: '';
-	content: none;
-}
-del {
-	text-decoration: line-through;
-}
-header, section, article, aside, nav, footer, address {
-	display: block;
-}
 body {
-	font-family: 'open_sansregular',Arial, Helvetica, sans-serif;
+	font-family: 'Gordita Regular',Arial, Helvetica, sans-serif;
 	font-size: 17px;
 	color: #333;
 	overflow-x: hidden;
 	min-width: 320px;
 }
 input,textarea,select{
-	font-family: 'open_sansregular',Arial, Helvetica, sans-serif;
+	font-family: 'Gordita Regular',Arial, Helvetica, sans-serif;
 }
 a{
 	color: #333;
@@ -47,9 +34,6 @@ a:hover,.submit:hover{
 	-khtml-opacity: 0.85;
 	opacity: 0.85;
 }
-.thumb{
-	display: block;
-}
 .thumb img{
 	display: block;
 	width:100%;
@@ -57,20 +41,10 @@ a:hover,.submit:hover{
 p{
 	line-height:1.6em;
 	font-size: 16px;
-	font-family: 'open_sanslight';
+	font-family: 'Gordita Regular';
 }
 .hidden{
 	display:none;
-}
-br.clear {
-	clear: both;
-	line-height: 0;
-}
-.left{
-	float: left;
-}
-.right{
-	float: right;
 }
 .wrapper {
 	width: 90%;
@@ -79,23 +53,27 @@ br.clear {
 }
 
 @font-face {
-    font-family: 'open_sanslight';
-    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
-         url('../fonts/opensans-light-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Gordita Medium';
     font-style: normal;
-}
+    font-weight: normal;
+    src: local('Gordita Medium'), url("../fonts/Gordita\ Medium.woff") format('woff');
+    }
+
 @font-face {
-    font-family: 'open_sansregular';
-    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
-         url('../fonts/opensans-regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Gordita Regular';
     font-style: normal;
-}
-@font-face {
-    font-family: 'open_sanssemibold';
-    src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
-         url('../fonts/opensans-semibold-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
-}
+    src: local('Gordita Regular'), url("../fonts/Gordita\ Regular.woff") format('woff');
+    }
+
+/* start */
+header {}
+header section h1 {}
+header section h1 a {}
+header section h1 a img {}
+header section ul {}
+header section ul li {}
+header section ul li a {}
+header section nav.right {}
+header section nav.right a.button1 {}
+header section nav.right a.button2 {}
