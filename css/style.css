@@ -134,6 +134,7 @@ header section nav.right span a.button2 {
     border-radius: 20px;
 	font-family: 'Gordita Medium';
 }
+
 /* #spotlight */
 #spotlight {}
 #spotlight section.wrapper {
@@ -172,3 +173,15 @@ header section nav.right span a.button2 {
 	display: block;
 	width: 100%;
 }
+
+/* Works section */
+#works {}
+#works section.wrapper {}
+#works section.wrapper h3 {}
+#works section.wrapper p {}
+#works section.wrapper ul {}
+#works section.wrapper ul li {}
+#works section.wrapper ul li div {}
+#works section.wrapper ul li div img {} 
+#works section.wrapper ul li h4 {} 
+#works section.wrapper ul li p {}
