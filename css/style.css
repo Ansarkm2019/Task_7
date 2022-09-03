@@ -68,7 +68,7 @@ p{
 
 /* start */
 header {
-	padding: 50px 0;
+	padding: 35px 0;
 }
 header section.wrapper {
 	display: flex;
@@ -128,9 +128,47 @@ header section nav.right span:hover a.button1 {
 	font-family: 'Gordita Medium';
 }
 header section nav.right span a.button2 {
-	background-color: #E45F83;
+	background-image: linear-gradient(140deg, #E45F83 1%, #E45F83 50%, #9D5BFF 100%);
     color: #fff;
     padding: 20px 35px;
     border-radius: 20px;
 	font-family: 'Gordita Medium';
+}
+/* #spotlight */
+#spotlight {}
+#spotlight section.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+#spotlight section.wrapper div.left {
+	width: 50%;
+	background-color: #F8F8FA;
+	padding: 100px 0 0 10%;
+}
+#spotlight section.wrapper div.left p {
+	color: #888398;
+	font-family: 'Gordita Medium';
+	font-size: 19px;
+	margin: 10px 0 20px;
+}
+#spotlight section.wrapper div.left h2 {
+	font-family: 'Gordita Medium';
+	font-size: 55px;
+	font-weight: bold;
+	width: 85%;
+}
+#spotlight section.wrapper div.left span {
+	background-image: linear-gradient(140deg, #E45F83 1%, #E45F83 50%, #9D5BFF 100%);
+    color: #fff;
+    padding: 20px 35px;
+    border-radius: 20px;
+	font-family: 'Gordita Medium';
+	display: inline-block;
+}
+#spotlight section.wrapper div.right {
+	width: 50%;
+}
+#spotlight section.wrapper div.right img {
+	display: block;
+	width: 100%;
 }
