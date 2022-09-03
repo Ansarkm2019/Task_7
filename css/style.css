@@ -240,21 +240,108 @@ header section nav.right span a.button2 {
 /* Feature section */
 #feature {}
 #feature section.wrapper {}
-#feature section.wrapper section.top {}
-#feature section.wrapper section.top div.left {}
-#feature section.wrapper section.top div.left img {}
-#feature section.wrapper section.top div.right {}
-#feature section.wrapper section.top div.right h4 {}
-#feature section.wrapper section.top div.right p {}
+#feature section.wrapper section.top {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+#feature section.wrapper section.top div.left {
+    width: 45%;
+}
+#feature section.wrapper section.top div.left img {
+    display: block;
+    width: 100%;
+}
+#feature section.wrapper section.top div.right {
+    width: 45%;
+    padding-top: 150px;
+}
+#feature section.wrapper section.top div.right h4 {
+    font-size: 40px;
+    font-family: 'Gordita Medium';
+    color: #000;
+}
+#feature section.wrapper section.top div.right p {
+    width: 65%;
+    margin: 38px 0;
+}
 #feature section.wrapper section.top div.right div.bottom {}
-#feature section.wrapper section.top div.right div.bottom div {}
-#feature section.wrapper section.top div.right div.bottom div span {}
-#feature section.wrapper section.top div.right div.bottom div span img {}
-#feature section.wrapper section.top div.right div.bottom div a {}
-#feature section.wrapper section.bottom {}
-#feature section.wrapper section.bottom div.left {}
-#feature section.wrapper section.bottom div.left h4 {}
-#feature section.wrapper section.bottom div.left p {}
-#feature section.wrapper section.bottom div.left a {}
-#feature section.wrapper section.bottom div.right {}
-#feature section.wrapper section.bottom div.right img {}
+#feature section.wrapper section.top div.right div.bottom span.span1 {
+    display: block;
+    border: 1px solid #dadadd;
+    width: 50%;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 65px 0 20px;
+}
+#feature section.wrapper section.top div.right div.bottom span.span1 span.span2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+#feature section.wrapper section.top div.right div.bottom span.span1 span.span2 img {
+    display: block;
+    width: 100%;
+}
+#feature section.wrapper section.top div.right div.bottom span.span1 a {
+    font-family: 'Gordita Medium';
+    font-size: 17px;
+}
+#feature section.wrapper section.top div.right div.bottom small.small1 {
+    display: block;
+    width: 50%;
+    border: 1px solid #dadadd;
+    padding: 15px;
+    border-radius: 25px;
+}
+#feature section.wrapper section.top div.right div.bottom small.small1 span.small2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+#feature section.wrapper section.top div.right div.bottom small.small1 span.small2 img{
+    display: block;
+    width: 100%;
+}
+#feature section.wrapper section.top div.right div.bottom small.small1 a {
+    font-family: 'Gordita Medium';
+    font-size: 17px;
+}
+
+#feature section.wrapper section.bottom {
+	display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+#feature section.wrapper section.bottom div.left {
+	width: 45%;
+	padding-top: 150px;
+	padding-left: 130px;
+}
+#feature section.wrapper section.bottom div.left h4 {
+	font-size: 40px;
+    font-family: 'Gordita Medium';
+    color: #000;
+}
+#feature section.wrapper section.bottom div.left p {
+    font-family: 'Gordita Regular';
+    color: #888398;
+    margin: 40px 0 75px;
+}
+#feature section.wrapper section.bottom div.left a {
+    padding: 25px 50px;
+    border-radius: 20px;
+    /* display: block; */
+    border: 2px solid #E45F83;
+    font-family: 'Gordita Medium';
+    display: inline-block;
+}
+#feature section.wrapper section.bottom div.right {
+	width: 45%;
+}
+#feature section.wrapper section.bottom div.right img {
+	display: block;
+	width: 100%;
+}
