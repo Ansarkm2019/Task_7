@@ -67,13 +67,70 @@ p{
     }
 
 /* start */
-header {}
+header {
+	padding: 50px 0;
+}
+header section.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 header section h1 {}
 header section h1 a {}
 header section h1 a img {}
-header section ul {}
+header section ul {
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+}
 header section ul li {}
-header section ul li a {}
-header section nav.right {}
-header section nav.right a.button1 {}
-header section nav.right a.button2 {}
+header section ul li a {
+	display: inline-block;
+	color: #888398;
+	font-family: 'Gordita Regular';
+}
+header section ul li:hover a {
+	color: #000;
+	font-family: 'Gordita Medium';
+}
+header section ul li hr.none {
+	border-bottom: 3px solid #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+header section ul li:hover hr.none {
+	border-bottom: 3px solid #E45F83;
+}
+header section nav.right {
+	display: flex;
+    justify-content: space-between;
+    width: 18%;
+}
+header section nav.right span {
+	align-self: center;
+}
+header section nav.right span hr.none {
+	border-bottom: 3px solid #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+header section nav.right span:hover hr.none {
+	border-bottom: 3px solid #E45F83;
+
+}
+header section nav.right span a {
+	display: inline-block;
+	color: #888398;
+	font-family: 'Gordita Regular';
+}
+header section nav.right span:hover a.button1 {
+	color: #000;
+	font-family: 'Gordita Medium';
+}
+header section nav.right span a.button2 {
+	background-color: #E45F83;
+    color: #fff;
+    padding: 20px 35px;
+    border-radius: 20px;
+	font-family: 'Gordita Medium';
+}
