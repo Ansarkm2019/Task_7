@@ -175,13 +175,64 @@ header section nav.right span a.button2 {
 }
 
 /* Works section */
-#works {}
+#works {
+    padding: 150px 0;
+    text-align: center;
+}
 #works section.wrapper {}
-#works section.wrapper h3 {}
-#works section.wrapper p {}
-#works section.wrapper ul {}
-#works section.wrapper ul li {}
-#works section.wrapper ul li div {}
-#works section.wrapper ul li div img {} 
-#works section.wrapper ul li h4 {} 
-#works section.wrapper ul li p {}
+#works section.wrapper h3 {
+    font-size: 40px;
+    font-family: 'Gordita Medium';
+}
+#works section.wrapper p {
+	color: #888398;
+	margin: 25px 0;
+}
+#works section.wrapper section.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#works section.wrapper section.container div.card {
+    width: 30%;
+}
+#works section.wrapper section.container div.card div.top {
+    height: 300px;
+}
+#works section.wrapper section.container div.card div.top img {
+    z-index: 1;
+    display: block;
+    width: 100%;
+}
+#works section.wrapper section.container div.card div.top div.curve {
+    position: absolute;
+    top: 55px;
+    left: 77px;
+    width: 85%;
+    z-index: -1;
+}
+#works section.wrapper section.container div.card div.top div.curve img {
+    display: block;
+    width: 100%;
+}
+#works section.wrapper section.container div.card div.top a.add {
+	position: relative;
+	display: inline-block;
+	color: #000;
+	top: -147px;
+	left: -5px;
+	font-size: 14px;
+}
+#works section.wrapper section.container div.card div.bottom {
+    text-align: left;
+    width: 65%;
+    margin: 0 auto;
+}
+#works section.wrapper section.container div.card div.bottom h4 {
+    font-size: 25px;
+	font-family: 'Gordita Medium';
+}
+#works section.wrapper section.container div.card div.bottom p {
+	font-family: 'Gordita Medium';
+	color: #888398;
+}
