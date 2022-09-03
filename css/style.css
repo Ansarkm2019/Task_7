@@ -384,3 +384,29 @@ header section nav.right span a.button2 {
     background-image: linear-gradient(140deg, #E45F83 1%, #E45F83 50%, #9D5BFF 100%);
     border-radius: 10px;
 }
+
+/* Footer */
+footer {}
+footer section.wrapper {}
+footer section.wrapper section.bottom {}
+footer section.wrapper section.bottom div.fast {}
+footer section.wrapper section.bottom div.fast h1 {}
+footer section.wrapper section.bottom div.fast h1 a {}
+footer section.wrapper section.bottom div.fast h1 a img {}
+footer section.wrapper section.bottom div.fast p {}
+footer section.wrapper section.bottom div.fast ul {}
+footer section.wrapper section.bottom div.fast ul li {}
+footer section.wrapper section.bottom div.fast ul li img {}
+footer section.wrapper section.bottom div.about {}
+footer section.wrapper section.bottom div.about h2 {}
+footer section.wrapper section.bottom div.about ul {}
+footer section.wrapper section.bottom div.about ul li {}
+footer section.wrapper section.bottom div.support {}
+footer section.wrapper section.bottom div.support h2 {}
+footer section.wrapper section.bottom div.support ul {}
+footer section.wrapper section.bottom div.support ul li {}
+footer section.wrapper section.bottom div.contact {}
+footer section.wrapper section.bottom div.contact h2 {}
+footer section.wrapper section.bottom div.contact ul {}
+footer section.wrapper section.bottom div.contact ul li {}
+footer section.wrapper p {}
