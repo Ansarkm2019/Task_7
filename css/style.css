@@ -265,7 +265,7 @@ header section nav.right span a.button2 {
 #feature section.wrapper section.top div.right p {
     width: 65%;
     margin: 38px 0;
-	font-family: 'Gordita Regular';
+	font-family: 'Gordita Medium';
     color: #888398;
 }
 #feature section.wrapper section.top div.right div.bottom {}
@@ -328,7 +328,7 @@ header section nav.right span a.button2 {
     color: #000;
 }
 #feature section.wrapper section.bottom div.left p {
-    font-family: 'Gordita Regular';
+    font-family: 'Gordita Medium';
     color: #888398;
     margin: 40px 0 75px;
 }
@@ -376,6 +376,7 @@ header section nav.right span a.button2 {
 }
 #subscribe section.wrapper form input {
     font-size: 20px;
+	color: #888398;
 }
 #subscribe section.wrapper form button {
     font-size: 20px;
@@ -386,27 +387,104 @@ header section nav.right span a.button2 {
 }
 
 /* Footer */
-footer {}
-footer section.wrapper {}
-footer section.wrapper section.bottom {}
-footer section.wrapper section.bottom div.fast {}
-footer section.wrapper section.bottom div.fast h1 {}
-footer section.wrapper section.bottom div.fast h1 a {}
-footer section.wrapper section.bottom div.fast h1 a img {}
-footer section.wrapper section.bottom div.fast p {}
-footer section.wrapper section.bottom div.fast ul {}
-footer section.wrapper section.bottom div.fast ul li {}
-footer section.wrapper section.bottom div.fast ul li img {}
-footer section.wrapper section.bottom div.about {}
-footer section.wrapper section.bottom div.about h2 {}
+footer {
+	padding: 10px 0 80px
+}
+footer section.wrapper {
+    background-color: #F8F8FA;
+    padding: 60px 0;
+}
+footer section.wrapper section.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+footer section.wrapper section.bottom div.fast {
+    width: 30%;
+}
+footer section.wrapper section.bottom div.fast h1 {
+	width: 40%;
+}
+footer section.wrapper section.bottom div.fast h1 a {
+    display: inline-block;
+}
+footer section.wrapper section.bottom div.fast h1 a img {
+    display: block;
+    width: 100%;
+}
+footer section.wrapper section.bottom div.fast p {
+    margin: 30px 0;
+    font-size: 16px;
+    font-family: 'Gordita Medium';
+    width: 85%;
+    color: #888398;
+    text-align: left;
+}
+footer section.wrapper section.bottom div.fast ul {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+footer section.wrapper section.bottom div.fast ul li {
+    padding: 10px;
+    background-color: #ececec;
+    border-radius: 10px;
+}
+footer section.wrapper section.bottom div.fast ul li img {
+    display: block;
+    width: 100%;
+}
+footer section.wrapper section.bottom div.about {
+    width: 16%;
+}
+footer section.wrapper section.bottom div.about h2 {
+    font-family: 'Gordita Medium';
+    font-size: 19px;
+    margin: 10px 0 40px;
+}
 footer section.wrapper section.bottom div.about ul {}
-footer section.wrapper section.bottom div.about ul li {}
-footer section.wrapper section.bottom div.support {}
-footer section.wrapper section.bottom div.support h2 {}
+footer section.wrapper section.bottom div.about ul li {
+    font-family: 'Gordita Medium';
+    color: #888398;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+footer section.wrapper section.bottom div.support {
+    width: 19%;
+}
+footer section.wrapper section.bottom div.support h2 {
+	font-family: 'Gordita Medium';
+    font-size: 19px;
+    margin: 10px 0 40px;
+}
 footer section.wrapper section.bottom div.support ul {}
-footer section.wrapper section.bottom div.support ul li {}
-footer section.wrapper section.bottom div.contact {}
-footer section.wrapper section.bottom div.contact h2 {}
+footer section.wrapper section.bottom div.support ul li {
+	font-family: 'Gordita Medium';
+    color: #888398;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+footer section.wrapper section.bottom div.contact {
+    width: 10%;
+}
+footer section.wrapper section.bottom div.contact h2 {
+	font-family: 'Gordita Medium';
+    font-size: 19px;
+    margin: 10px 0 40px;
+}
 footer section.wrapper section.bottom div.contact ul {}
-footer section.wrapper section.bottom div.contact ul li {}
-footer section.wrapper p {}
+footer section.wrapper section.bottom div.contact ul li {
+	font-family: 'Gordita Medium';
+    color: #888398;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+footer section.wrapper p {
+    text-align: center;
+    margin: 50px auto 0;
+    width: 50%;
+    font-size: 15px;
+    font-family: 'Gordita Medium';
+    color: gray;
+}
