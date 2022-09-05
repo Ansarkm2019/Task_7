@@ -1,5 +1,12 @@
 /* Responsive */
 @media all and (max-width:1380px) {
+    header section nav.right span a.button2 {
+        padding: 15px 30px;
+    }
+    #spotlight section.wrapper div.left h2 {
+        font-size: 53px;
+        width: 75%;
+    }
 	
 }
 @media all and (max-width:1280px) {
