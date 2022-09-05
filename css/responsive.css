@@ -120,6 +120,27 @@
         font-size: 36px;
         width: 100%;
     }
+    #works section.wrapper section.container div.card div.top div.curve {
+        display: none;
+    }
+    #works section.wrapper section.container {
+        flex-wrap: wrap;
+    }
+    #works section.wrapper section.container div.card {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #works section.wrapper section.container div.card div.top {
+        height: 400px;
+    }
+    #works section.wrapper section.container div.card div.top a.add {
+        font-family: 'Gordita Regular';
+        top: -246px;
+        font-size: 25px;
+    }
+    #works section.wrapper section.container div.card div.bottom {
+        margin-top: 20px;
+    }
 }
 @media all and (max-width:768px) {
 	
