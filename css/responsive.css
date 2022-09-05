@@ -7,11 +7,70 @@
         font-size: 53px;
         width: 75%;
     }
+    #works section.wrapper section.container div.card div.top a.add {
+        top : -140px;
+    }
+    #works section.wrapper section.container div.card div.top div.curve {
+        width: 84%;
+    }
 	
 }
 @media all and (max-width:1280px) {
-
-}
+    header section nav.right {
+        width: 21%;
+    }
+    #spotlight section.wrapper div.left {
+        padding: 30px 0 0 5%;
+    }
+    #spotlight section.wrapper div.left h2 {
+        font-size: 45px;
+    }
+    #works section.wrapper section.container div.card div.top a.add {
+        top: -118px;
+        left: -12px;
+    }
+    #works section.wrapper section.container div.card div.top div.curve {
+        width: 82%;
+    }
+    #works section.wrapper section.container div.card div.bottom {
+        width: 82%;
+    }
+    #feature section.wrapper section.top div.right {
+        padding-top: 80px;
+    }
+    #feature section.wrapper section.top div.right p {
+        width: 80%;
+        margin: 20px 0;
+    }
+    #feature section.wrapper section.top div.right div.bottom {
+        padding-top: 0;
+    }
+    #feature section.wrapper section.top div.right div.bottom span.span1 {
+        width: 60%;
+    }
+    #feature section.wrapper section.top div.right div.bottom small.small1 {
+        width: 60%;
+    }
+    #feature section.wrapper section.bottom div.left {
+        width: 45%;
+        padding-top: 90px;
+        padding-left: 70px;
+    }
+    #feature section.wrapper section.bottom div.left a {
+        padding: 20px 35px;
+    }
+    #subscribe section.wrapper p {
+        margin-bottom: 12px;
+    }
+    #subscribe section.wrapper form {
+        width: 78%;
+    }
+    footer section.wrapper section.bottom div.contact {
+        width: 12%;
+    }
+    footer {
+        padding: 0px 0 50px;
+    }
 @media all and (max-width:1080px) {
 	
 }

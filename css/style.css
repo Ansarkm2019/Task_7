@@ -284,14 +284,16 @@ header section small img {
 	font-family: 'Gordita Medium';
     color: #888398;
 }
-#feature section.wrapper section.top div.right div.bottom {}
+#feature section.wrapper section.top div.right div.bottom {
+	padding-top: 65px; 
+}
 #feature section.wrapper section.top div.right div.bottom span.span1 {
-    display: block;
+    display: inline-block;
     border: 1px solid #dadadd;
     width: 50%;
     padding: 15px;
     border-radius: 25px;
-    margin: 65px 0 20px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 #feature section.wrapper section.top div.right div.bottom span.span1 span.span2 {
