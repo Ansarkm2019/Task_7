@@ -11,7 +11,7 @@
         top : -140px;
     }
     #works section.wrapper section.container div.card div.top div.curve {
-        width: 84%;
+        width: 85%;
     }
 	
 }
@@ -20,17 +20,17 @@
         width: 21%;
     }
     #spotlight section.wrapper div.left {
-        padding: 30px 0 0 5%;
+        padding: 70px 0 0 8%;
     }
     #spotlight section.wrapper div.left h2 {
         font-size: 45px;
     }
     #works section.wrapper section.container div.card div.top a.add {
-        top: -118px;
+        top: -134px;
         left: -12px;
     }
     #works section.wrapper section.container div.card div.top div.curve {
-        width: 82%;
+        width: 83%;
     }
     #works section.wrapper section.container div.card div.bottom {
         width: 82%;
@@ -71,11 +71,55 @@
     footer {
         padding: 0px 0 50px;
     }
+@media all and (max-width:1160px) {
+    #works section.wrapper section.container div.card div.top a.add {
+        top: -128px;
+        font-size: 12px;
+    }
+}
+@media all and (max-width:1043px) {
+    #works section.wrapper section.container div.card div.top a.add {
+        top: -121px;
+        font-size: 12px;
+    }
+    #works section.wrapper section.container div.card div.top div.curve {
+        width: 83%;
+    }
+}
 @media all and (max-width:1080px) {
-	
+	#spotlight section.wrapper div.left {
+        padding: 40px
+    }
+    #works section.wrapper section.container div.card div.top div.curve {
+        width: 83%;
+    }
+    #works section.wrapper section.container div.card div.top a.add {
+        top: -115px;
+        font-size: 12px;
+    }
 }
 @media all and (max-width:980px) {
-	
+	header section h1 {
+        width: 20%;
+    }
+    header section nav.right {
+        width: 21%;
+    }
+    header section nav.right span a.button2 {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    #spotlight section.wrapper div.left {
+        padding: 30px 45px 0 35px;
+    }
+    #spotlight section.wrapper div.left p {
+        font-size: 15px;
+        margin: 4px 0 12px;
+    }
+    #spotlight section.wrapper div.left h2 {
+        font-size: 36px;
+        width: 100%;
+    }
 }
 @media all and (max-width:768px) {
 	

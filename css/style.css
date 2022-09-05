@@ -73,10 +73,8 @@ header section.wrapper {
 	justify-content: space-between;
 	align-items: center;
 }
-header section h1 {
-}
+header section h1 {}
 header section h1 a {
-    display: inline-block;
     cursor: pointer;
 }
 header section h1 a img {
