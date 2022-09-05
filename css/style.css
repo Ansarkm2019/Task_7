@@ -18,7 +18,7 @@ ol, ul {
 body {
 	font-family: 'Gordita Regular',Arial, Helvetica, sans-serif;
 	font-size: 17px;
-	color: #333;
+	color: #000;
 	overflow-x: hidden;
 	min-width: 320px;
 }
@@ -141,6 +141,13 @@ header section nav.right span a.button2 {
     padding: 20px 35px;
     border-radius: 20px;
 	font-family: 'Gordita Medium';
+}
+header section small {
+    display: none;
+}
+header section small img {
+    display: block;
+    width: 100%;
 }
 
 /* #spotlight */
