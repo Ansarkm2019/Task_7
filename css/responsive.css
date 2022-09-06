@@ -71,6 +71,7 @@
     footer {
         padding: 0px 0 50px;
     }
+}
 @media all and (max-width:1160px) {
     #works section.wrapper section.container div.card div.top a.add {
         top: -128px;
@@ -219,7 +220,7 @@
         font-size: 18px;
     }
     #works {
-        padding: 0px 0;
+        padding: 20px 0 0;
     }
     #feature section.wrapper section.top div.right p {
         width: 100%;
@@ -238,11 +239,138 @@
     }
 }
 @media all and (max-width:640px) {
-	
+    header section h1 {
+        width: 40%;
+    }
+	header section nav.right {
+        width: 30%;
+        display: none;
+    }
+    header section small {
+        display: block;
+    }
+    #works section.wrapper section.container div.card div.top a.add {
+        top: -150px;
+        font-size: 15px;
+    }
+    #works section.wrapper section.container div.card div.top {
+        height: auto;
+    }
+    #feature section.wrapper section.top div.right div.bottom span.span1 {
+        width: 90%;
+    }
+    #feature section.wrapper section.top div.right div.bottom small.small1 {
+        width: 90%;
+    }
+    #feature section.wrapper section.top div.right div.bottom span.span1 span.span2 {
+        height: 50px;
+    }
+    #feature section.wrapper section.top div.right div.bottom span.span1 span.span2 img {
+        height: 50px;
+    }
+    #feature section.wrapper section.top div.right div.bottom small.small1 span.small2 {
+        height: 50px;
+    }
+    #feature section.wrapper section.top div.right div.bottom small.small1 span.small2 img {
+        height: 50px;
+    }
+    #feature section.wrapper section.bottom div.left h4 {
+        font-size: 30px;
+    }
+    #subscribe section.wrapper h3 {
+        font-size: 30px;
+    }
+    #subscribe section.wrapper form {
+        width: 80%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+    #subscribe section.wrapper form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #subscribe section.wrapper form button {
+        padding: 13px 22%;
+        margin: 0 auto;
+    }
+    footer section.wrapper p {
+        margin-top: 27px;
+        width: 80%;
+    }
 }
 @media all and (max-width:480px) {
-	
+	#spotlight section.wrapper div.left h2 {
+        font-size: 25px;
+    }
+    #works section.wrapper section.container div.card div.top a.add {
+        top: -115px;
+        font-size: 12px;
+    }
+    #feature section.wrapper section.top div.right div.bottom span.span1 {
+        width: 100%;
+    }
+    #feature section.wrapper section.top div.right div.bottom small.small1 {
+        width: 100%;
+    }
+    #feature section.wrapper section.bottom div.left h4 {
+        font-size: 27px;
+    }
+    #subscribe section.wrapper form {
+        width: 100%;
+    }
+    #subscribe section.wrapper form button {
+        width: inherit;
+    }
+    footer section.wrapper section.bottom {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    footer section.wrapper section.bottom div.fast {
+        width: 100%;
+    }
+    footer section.wrapper section.bottom div.fast ul {
+        width: 75%;
+    }
+    footer section.wrapper section.bottom div.about {
+        width: 100%;
+    }
+    footer section.wrapper section.bottom div.support {
+        width: 100%;
+    }
+    footer section.wrapper section.bottom div.contact {
+        width: 100%;
+    }
 }
 @media all and (max-width:360px) {
-	
+	header section h1 {
+        width: 70%;
+    }
+    header section small {
+        width: 17%;
+    }
+    #spotlight section.wrapper div.left span {
+        padding: 15px 25px;
+    }
+    #works section.wrapper h3 {
+        font-size: 35px;
+    }
+    #works section.wrapper section.container div.card div.top a.add {
+        top: -103px;
+        font-size: 12px;
+    }
+    #feature section.wrapper section.top div.right {
+        width: 95%;
+    }
+    #feature section.wrapper section.bottom div.left {
+        padding-left: 1px;
+    }
+    #subscribe {
+        padding: 25px 0;
+    }
+    footer section.wrapper section.bottom div.fast h1 {
+        width: 100%;
+    }
 }
+/* Completed */
