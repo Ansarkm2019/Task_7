@@ -141,6 +141,54 @@
     #works section.wrapper section.container div.card div.bottom {
         margin-top: 20px;
     }
+    #feature section.wrapper section.top {
+        flex-wrap: wrap;
+    }
+    #feature section.wrapper section.top div.left {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #feature section.wrapper section.top div.right {
+        padding-top: 0px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    #feature section.wrapper section.top {
+        margin-bottom: 20px;
+    }
+    #feature section.wrapper section.bottom {
+        flex-wrap: wrap;
+    }
+    #feature section.wrapper section.bottom div.left {
+        width: 90%;
+        padding-top: 90px;
+        padding-left: 93px;
+    }
+    #feature section.wrapper section.bottom div.left p {
+        margin: 20px 0 30px;
+    }
+    #feature section.wrapper section.bottom div.right {
+        width: 90%;
+        margin: 0 auto;
+    }
+    footer section.wrapper section.bottom {
+        flex-wrap: wrap;
+    }
+    footer section.wrapper section.bottom div.fast {
+        width: 60%;
+    }
+    footer section.wrapper section.bottom div.about {
+        width: 39%;
+    }
+    footer section.wrapper section.bottom div.support {
+        width: 60%;
+    }
+    footer section.wrapper section.bottom div.contact {
+        width: 39%;
+    }
+    footer section.wrapper p {
+        margin-top: 33px;
+    }
 }
 @media all and (max-width:768px) {
 	
