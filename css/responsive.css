@@ -128,7 +128,7 @@
         flex-wrap: wrap;
     }
     #works section.wrapper section.container div.card {
-        width: 90%;
+        width: 65%;
         margin: 0 auto;
     }
     #works section.wrapper section.container div.card div.top {
@@ -136,7 +136,7 @@
     }
     #works section.wrapper section.container div.card div.top a.add {
         font-family: 'Gordita Regular';
-        top: -246px;
+        top: -219px;
         font-size: 25px;
     }
     #works section.wrapper section.container div.card div.bottom {
@@ -146,7 +146,7 @@
         flex-wrap: wrap;
     }
     #feature section.wrapper section.top div.left {
-        width: 90%;
+        width: 75%;
         margin: 0 auto;
     }
     #feature section.wrapper section.top div.right {
@@ -161,7 +161,7 @@
         flex-wrap: wrap;
     }
     #feature section.wrapper section.bottom div.left {
-        width: 90%;
+        width: 70%;
         padding-top: 90px;
         padding-left: 93px;
     }
@@ -169,7 +169,7 @@
         margin: 20px 0 30px;
     }
     #feature section.wrapper section.bottom div.right {
-        width: 90%;
+        width: 70%;
         margin: 0 auto;
     }
     footer section.wrapper section.bottom {
@@ -216,11 +216,11 @@
         padding: 50px 0;
     }
     #works section.wrapper section.container div.card div.top a.add {
-        top: -198px;
+        top: -168px;
         font-size: 18px;
     }
     #works {
-        padding: 20px 0 0;
+        padding: 60px 0 0;
     }
     #feature section.wrapper section.top div.right p {
         width: 100%;
@@ -357,8 +357,8 @@
         font-size: 35px;
     }
     #works section.wrapper section.container div.card div.top a.add {
-        top: -103px;
-        font-size: 12px;
+        top: -86px;
+    font-size: 10px;
     }
     #feature section.wrapper section.top div.right {
         width: 95%;
